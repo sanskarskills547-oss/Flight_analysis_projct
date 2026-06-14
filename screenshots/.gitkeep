@@ -1,0 +1,20 @@
+
+#### Which flight routes carry the highest passenger volume?####
+SELECT 
+    f.origin_airport_id,
+    F.DEST_airport_id,
+    a1.city_name AS origin_city,
+    a2.city_name AS dest_city,
+    SUM(fm.passengers)
+FROM
+    flight f
+        JOIN
+    flightmetrics fm ON f.flight_id = fm.flight_id
+        JOIN
+    airport a1 ON f.origin_airport_id = a1.airport_id
+        JOIN
+    airport a2 ON f.dest_airport_id = a2.airport_id
+GROUP BY f.origin_airport_id , F.DEST_airport_id
+ORDER BY SUM(fm.passengers) DESC
+LIMIT 10;
+
