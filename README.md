@@ -34,12 +34,12 @@ Aggregated passenger counts by origin and destination airports using joins betwe
 
 #### Key Finding
 
-The top 10 routes were identified based on total passenger volume.
+The top 2 routes were identified based on total passenger volume.
 
 Example:
 
-* Route A → Route B: 2.4 million passengers
-* Route C → Route D: 2.1 million passengers
+* Route Atlanta → Route Orlando: 364 thousand passengers
+* Route Newark → Route San Fransico: 363 thousand passengers
 
 #### Business Impact
 
@@ -141,4 +141,16 @@ Supports:
 ## Author
 
 Sanskar Prasad
-Aspiring Data Analyst
+Data Analyst
+## output
+<img width="567" height="220" alt="Screenshot 2026-06-14 190343" src="https://github.com/user-attachments/assets/7d1777e0-e5cd-41a5-9c97-7ee342a5106f" />
+<img width="222" height="63" alt="Screenshot 2026-06-14 192307" src="https://github.com/user-attachments/assets/40bf2d32-52a8-4931-9e68-077e19b4a0cd" />
+<img width="537" height="216" alt="Screenshot 2026-06-14 192628" src="https://github.com/user-attachments/assets/7745a9ca-28d2-4bd6-9b51-0228f114b341" />
+<img width="541" height="197" alt="image" src="https://github.com/user-attachments/assets/417b7031-7243-44b3-9251-2a26a7e1742b" />
+<img width="555" height="261" alt="image" src="https://github.com/user-attachments/assets/44edac80-e5b4-46bf-a08d-88a12180ba55" />
+<img width="301" height="195" alt="image" src="https://github.com/user-attachments/assets/7032474e-46d2-4db7-b8fa-87e334693401" />
+<img width="301" height="230" alt="image" src="https://github.com/user-attachments/assets/50ee3393-c517-4503-8b3f-6a400fef4c4b" />
+<img width="393" height="316" alt="image" src="https://github.com/user-attachments/assets/4447c732-b478-4d1a-ad20-00a05394cf8e" />
+
+
+
